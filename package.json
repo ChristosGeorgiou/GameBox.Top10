@@ -1,0 +1,20 @@
+{
+  "name": "GameBox.Top10",
+  "version": "0.1.0",
+  "description": "Find the top 10 answers before your friends do.",
+  "private": true,
+  "dependencies": {
+    "gulp": "*",
+    "gulp-angular-filesort": "^1.1.1",
+    "gulp-concat": "*",
+    "gulp-minify-css": "*",
+    "gulp-rename": "*",
+    "gulp-sass": "*"
+  },
+  "devDependencies": {
+    "bower": "*",
+    "gulp-inject": "^1.2.0",
+    "gulp-util": "*",
+    "shelljs": "*"
+  }
+}
