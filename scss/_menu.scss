@@ -1,4 +1,4 @@
-.start-screen {
+.menu-screen {
   background: $color-primary;
   color: set-text($color-primary);
   text-align: center;
@@ -31,16 +31,16 @@
   -ms-flex-align: center;
   align-items: center;
   &.padding {
-    padding: 20%;
+    padding: 10%;
   }
-  .start-screen-header {
+  .menu-header {
     text-transform: uppercase;
     font-size: 3.5em;
     margin: 0 0 15px;
     text-shadow: 1px 1px 0 #111;
     color: lighten($color-primary,30);
   }
-  .start-screen-subheader {
+  .menu-subheader {
     text-transform: uppercase;
     font-size: 1.2em;
     margin: 0 0 15px;
@@ -64,7 +64,7 @@
       left: 1.5%;
     }
   }
-  .start-view {
+  .menu-view {
     color: lighten($color-primary,20);
     .spinner svg {
       width: 48px;
@@ -72,32 +72,16 @@
       stroke: lighten($color-primary,20);
       fill: lighten($color-primary,20);
     }
-  }
-  .login-form {
-    .item-input {
-      background: transparent;
-      border-width: 0 0 1px 0;
-      border-color: lighten($color-primary,20);
-      font-size: 2em;
-      input {
-        color: #eee;
-        font-size: 0.6em;
-        line-height: normal;
-        text-align: center;
-        text-shadow: 1px 1px 0 #111;
-        &::-webkit-input-placeholder {
-          color: lighten($color-primary,10);
-        }
+    .button-light{
+      &.activated{
+        background: darken($color-primary,5);
       }
-    }
-    .button {
-
     }
   }
   .icon {
     font-size: 40px;
   }
-  .start-error {
+  .menu-error {
     color: $energized;
     .info {
       padding-top: 4px;

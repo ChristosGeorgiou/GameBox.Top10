@@ -1,6 +1,6 @@
 {
   "name": "GamesBox.Top10",
-  "app_id": "5d4110f2"
+  "app_id": "5d4110f2",
   "gulpStartupTasks": [
     "sass",
     "scripts",

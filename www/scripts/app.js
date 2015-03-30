@@ -19,38 +19,21 @@ angular.module('gbtt', ['ionic', 'gbtt.controllers', 'gbtt.services'])
 
 		.state('start', {
 		url: "/start",
-		templateUrl: "views/general/start.html",
+		templateUrl: "views/start.html",
 		controller: 'StartCtrl',
 	})
 
-	.state('login', {
-		url: "/login",
-		templateUrl: "views/general/login.html",
-		controller: 'LoginCtrl',
-	})
-
-	.state('app', {
-		url: "/app",
-		abstract: true,
-		templateUrl: "views/_layouts/empty.html",
-		controller: 'AppCtrl',
-	})
-
-	.state('app.main', {
-		url: "/main",
-		views: {
-			'content': {
-				templateUrl: "views/notes/main.html",
-				controller: "MainCtrl",
-			}
-		}
+	.state('menu', {
+		url: "/menu",
+		templateUrl: "views/menu.html",
+		controller: 'MenuCtrl',
 	})
 
 	.state('app.settings', {
 		url: "/settings",
 		views: {
 			'content': {
-				templateUrl: "views/settings/list.html",
+				templateUrl: "views/settings.html",
 				controller: "SettingsCtrl"
 			}
 		}
