@@ -7604,7 +7604,7 @@ a.button {
   transition-duration: 0s; }
 
 .start-screen {
-  background: #ef473a;
+  background: #512DA8;
   color: #222;
   text-align: center;
   display: -webkit-box;
@@ -7642,13 +7642,13 @@ a.button {
     font-size: 3.5em;
     margin: 0 0 15px;
     text-shadow: 1px 1px 0 #111;
-    color: #facbc8; }
+    color: #a68de1; }
   .start-screen .start-screen-subheader {
     text-transform: uppercase;
     font-size: 1.2em;
     margin: 0 0 15px;
     text-shadow: 1px 1px 0 #111;
-    color: #facbc8;
+    color: #a68de1;
     display: table;
     white-space: nowrap; }
     .start-screen .start-screen-subheader:before, .start-screen .start-screen-subheader:after {
@@ -7663,16 +7663,16 @@ a.button {
     .start-screen .start-screen-subheader:after {
       left: 1.5%; }
   .start-screen .start-view {
-    color: #f79f98; }
+    color: #8665d6; }
     .start-screen .start-view .spinner svg {
       width: 48px;
       height: 48px;
-      stroke: #f79f98;
-      fill: #f79f98; }
+      stroke: #8665d6;
+      fill: #8665d6; }
   .start-screen .login-form .item-input {
     background: transparent;
     border-width: 0 0 1px 0;
-    border-color: #f79f98;
+    border-color: #8665d6;
     font-size: 2em; }
     .start-screen .login-form .item-input input {
       color: #eee;
@@ -7681,20 +7681,20 @@ a.button {
       text-align: center;
       text-shadow: 1px 1px 0 #111; }
       .start-screen .login-form .item-input input::-webkit-input-placeholder {
-        color: #f37369; }
+        color: #673dcb; }
   .start-screen .icon {
     font-size: 40px; }
   .start-screen .start-error {
     color: #ffc900; }
     .start-screen .start-error .info {
       padding-top: 4px;
-      border-top: solid 1px #f79f98;
+      border-top: solid 1px #8665d6;
       margin-top: 5px;
-      color: #f79f98;
+      color: #8665d6;
       display: block; }
 
 .menu-screen {
-  background: #ef473a;
+  background: #512DA8;
   color: #222;
   text-align: center;
   display: -webkit-box;
@@ -7732,13 +7732,13 @@ a.button {
     font-size: 3.5em;
     margin: 0 0 15px;
     text-shadow: 1px 1px 0 #111;
-    color: #facbc8; }
+    color: #a68de1; }
   .menu-screen .menu-subheader {
     text-transform: uppercase;
     font-size: 1.2em;
     margin: 0 0 15px;
     text-shadow: 1px 1px 0 #111;
-    color: #facbc8;
+    color: #a68de1;
     display: table;
     white-space: nowrap; }
     .menu-screen .menu-subheader:before, .menu-screen .menu-subheader:after {
@@ -7753,23 +7753,23 @@ a.button {
     .menu-screen .menu-subheader:after {
       left: 1.5%; }
   .menu-screen .menu-view {
-    color: #f79f98; }
+    color: #8665d6; }
     .menu-screen .menu-view .spinner svg {
       width: 48px;
       height: 48px;
-      stroke: #f79f98;
-      fill: #f79f98; }
+      stroke: #8665d6;
+      fill: #8665d6; }
     .menu-screen .menu-view .button-light.activated {
-      background: #ed3122; }
+      background: #472894; }
   .menu-screen .icon {
     font-size: 40px; }
   .menu-screen .menu-error {
     color: #ffc900; }
     .menu-screen .menu-error .info {
       padding-top: 4px;
-      border-top: solid 1px #f79f98;
+      border-top: solid 1px #8665d6;
       margin-top: 5px;
-      color: #f79f98;
+      color: #8665d6;
       display: block; }
 
 table {
@@ -7837,9 +7837,9 @@ table td[class*="col-"], table th[class*="col-"] {
   left: 0;
   width: 100%;
   padding: 0 0 4px;
-  color: #f37369;
+  color: #673dcb;
   z-index: 100;
   text-align: center; }
   .footer a {
-    color: #f79f98;
+    color: #8665d6;
     text-decoration: none; }
