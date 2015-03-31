@@ -1,19 +1,19 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.ionicframework.gamesboxtop10970313" version="0.0.1" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-  <name>GamesBox.Top10</name>
-  <description>
-        Find the top 10 answers before your friends do.
-    </description>
-  <author email="contact@christosgeorgiou.gr" href="http://christosgeorgiou.gr/">
-    Christos Georgiou
-  </author>
-  <content src="index.html"/>
-  <access origin="*"/>
-  <preference name="webviewbounce" value="false"/>
-  <preference name="UIWebViewBounce" value="false"/>
-  <preference name="DisallowOverscroll" value="true"/>
-  <preference name="BackupWebStorage" value="none"/>
-  <feature name="StatusBar">
-    <param name="ios-package" value="CDVStatusBar" onload="true"/>
-  </feature>
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<widget id="com.ionicframework.gamesboxtop10970313" version="0.1.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+	<name>GamesBox.Top10</name>
+	<description>
+		Find the top 10 answers before your friends do.
+	</description>
+	<author email="contact@christosgeorgiou.gr" href="http://christosgeorgiou.gr/">
+		Christos Georgiou
+	</author>
+	<content src="index.html" />
+	<access origin="*" />
+	<preference name="webviewbounce" value="false" />
+	<preference name="UIWebViewBounce" value="false" />
+	<preference name="DisallowOverscroll" value="true" />
+	<preference name="BackupWebStorage" value="none" />
+	<feature name="StatusBar">
+		<param name="ios-package" value="CDVStatusBar" onload="true" />
+	</feature>
 </widget>
