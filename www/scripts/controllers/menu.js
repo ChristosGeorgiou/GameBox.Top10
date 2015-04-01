@@ -1,9 +1,16 @@
 angular.module('gbtt.controllers')
 
 .controller('MenuCtrl', function($scope, $config, $state) {
-	// 
-	// $config.validate(["config", "user"], function() {
-	// 	$state.go('start');
-	// });
+
+  $scope.has_game = false;
+
+  $scope.start = function() {
+    $state.go('game.settings');
+  };
+
+  $scope.resume = function() {
+    $state.go('game.dash');
+  };
+
 
 });

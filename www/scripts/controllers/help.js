@@ -2,7 +2,7 @@ angular.module('gbtt.controllers')
 
 .controller('HelpCtrl', function($scope, $ionicModal) {
 
-	$ionicModal.fromTemplateUrl('views/_partials/help.html', {
+	$ionicModal.fromTemplateUrl('views/help.html', {
 			scope: $scope
 		})
 		.then(function(modal) {

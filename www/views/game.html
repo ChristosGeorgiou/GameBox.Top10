@@ -1,0 +1,58 @@
+<ion-view view-title="Top10 - New Game">
+
+  <ion-nav-bar class="bar-dark" align-title="center">
+
+    <ion-nav-buttons side="left">
+      <button ng-click="menu" class="button button-icon button-clear ion-android-menu"></button>
+    </ion-nav-buttons>
+
+
+  </ion-nav-bar>
+
+  <ion-content class="padding">
+    <div class="list">
+
+      <div class="item item-divider">
+        Choose your game settings...
+      </div>
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Teams
+        </div>
+        <select>
+          <option selected>2 teams</option>
+          <option>3 teams</option>
+          <option>4 teams</option>
+        </select>
+      </label>
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Rounds
+        </div>
+        <select>
+          <option selected>5 rounds</option>
+          <option>10 rounds</option>
+          <option>20 rounds</option>
+          <option>30 rounds</option>
+        </select>
+      </label>
+
+      <label class="item item-input item-select">
+        <div class="input-label">
+          Time
+        </div>
+        <select>
+          <option selected>30 seconds</option>
+          <option>60 seconds</option>
+          <option>90 seconds</option>
+        </select>
+      </label>
+
+      <a ng-click="start()" class="button button-block button-dark" href="#">
+        Start
+      </a>
+    </div>
+  </ion-content>
+</ion-view>
