@@ -3,5 +3,8 @@
   "private": "true",
   "devDependencies": {
     "ionic": "driftyco/ionic-bower#master"
+  },
+  "dependencies": {
+    "material-color": "~2.1.0"
   }
 }
