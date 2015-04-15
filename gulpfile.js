@@ -18,7 +18,7 @@ var env = process.env.NODE_ENV || 'development';
 
 gulp.task('sass', function(done) {
   gulp.src('./scss/ionic.app.scss')
-    .pipe(sass())
+    .pipe(sass({errLogToConsole: true}))
     .pipe(gulp.dest('./www/assets/css/'))
     // .pipe(minifyCss({
     //   keepSpecialComments: 0
