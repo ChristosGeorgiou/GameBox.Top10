@@ -4,13 +4,13 @@ angular.module('gbtt.controllers')
 
   $scope.has_game = false;
 
-  $scope.start = function() {
-    $state.go('game.settings');
-  };
-
-  $scope.resume = function() {
-    $state.go('game.dash');
-  };
+  // $scope.start = function() {
+  //   $state.go('/game/settings');
+  // };
+  //
+  // $scope.resume = function() {
+  //   $state.go('game.dash');
+  // };
 
 
 });

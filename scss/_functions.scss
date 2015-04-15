@@ -1,0 +1,8 @@
+@function set-text($color) {
+  @if (lightness($color) > 20) {
+    @return #222;
+  }
+  @else {
+    @return #CCC;
+  }
+}

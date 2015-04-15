@@ -17,37 +17,73 @@ angular.module('gbtt', ['ionic', 'gbtt.controllers', 'gbtt.services'])
 
   $stateProvider
 
-    .state('start', {
+    .state('app', {
+    url: "/app",
+    abstract: true,
+    templateUrl: "views/_layouts/empty.html"
+  })
+
+  .state('app.start', {
     url: "/start",
-    templateUrl: "views/start.html",
-    controller: 'StartCtrl',
+    views: {
+      'content': {
+        templateUrl: "views/general/start.html",
+        controller: "StartCtrl",
+      }
+    }
   })
 
-  .state('menu', {
+  .state('app.menu', {
     url: "/menu",
-    templateUrl: "views/menu.html",
-    controller: 'MenuCtrl',
+    views: {
+      'content': {
+        templateUrl: "views/general/menu.html",
+        controller: 'MenuCtrl',
+      }
+    }
   })
 
-  .state('settings', {
+  .state('app.settings', {
     url: "/settings",
-    templateUrl: "views/settings.html",
-    controller: 'SettingsCtrl',
+    views: {
+      'content': {
+        templateUrl: "views/general/settings.html",
+        controller: 'SettingsCtrl',
+      }
+    }
   })
 
   .state('game', {
     url: "/game",
-    templateUrl: "views/game.html",
-    controller: "GameCtrl",
+    abstract: true,
+    templateUrl: "views/_layouts/general.html"
   })
 
-  .state('card', {
+  .state('game.settings', {
+    url: "/settings",
+    views: {
+      'content': {
+        templateUrl: "views/game/settings.html",
+        controller: "GameCtrl",
+      }
+    }
+  })
+
+  .state('game.card', {
     url: "/card",
-    templateUrl: "views/card.html",
-    controller: 'CardCtrl',
+    views: {
+      'content': {
+        templateUrl: "views/game/card.html",
+        controller: 'CardCtrl',
+      }
+    }
   });
 
   // if none of the above states are matched, use this as the fallback
 
-  $urlRouterProvider.otherwise('/start');
-});
+  $urlRouterProvider.otherwise('/app/start');
+})
+
+.controller('AppCtrl', function($scope) {
+
+})

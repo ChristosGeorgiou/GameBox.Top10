@@ -8,7 +8,7 @@ angular.module('gbtt.controllers')
   };
 
   $scope.start = function() {
-    $state.go("card");
+    $state.go("game.card");
   };
 
 

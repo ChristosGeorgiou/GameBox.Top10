@@ -1,0 +1,31 @@
+<ion-side-menus>
+  <ion-side-menu-content>
+    <ion-nav-bar class="bar-dark">
+    </ion-nav-bar>
+    <ion-nav-view name="content">
+			<ion-view view-title="Dashboard">
+			  <ion-content class="padding">
+			    <ion-refresher pulling-text="Pull to refresh" on-refresh="refreshFriends()">
+			    </ion-refresher>
+			    <ion-list>
+			      <ion-item ng-repeat="friend in friends" class="item-avatar" ng-click="menuFriend()">
+			        <img ng-src="{{friend.user.picture.thumbnail}}">
+			        <h2>{{friend.user.name.first}} {{friend.user.name.last}}</h2>
+			        <p>{{friend.user.email}}</p>
+			      </ion-item>
+			    </ion-list>
+			  </ion-content>
+			</ion-view>
+		</ion-nav-view>
+  </ion-side-menu-content>
+
+  <ion-side-menu side="right" expose-aside-when="large">
+    <ion-content>
+      <h1>59</h1>
+      <h2>48</h2>
+      <h3>Blue Team</h3>
+      
+    </ion-content>
+  </ion-side-menu>
+
+</ion-side-menus>

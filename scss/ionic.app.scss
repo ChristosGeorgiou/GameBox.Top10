@@ -1,21 +1,16 @@
 @import "www/lib/material-color/material-color.scss";
+@import "scss/functions";
 
-$color-primary: $clr-red-800;
+$color-primary: $clr-red-500;
 $color-secondary: $clr-red-100;
 
 $stable: $color-secondary;
 $dark: $color-primary !default;
 
-// The path for our ionicons font files, relative to the built CSS in www/css
 $ionicons-font-path: "../../lib/ionic/fonts" !default;
-// Include all of Ionic
-@function set-text($color) {
-  @if (lightness($color) > 20) {
-    @return #222;
-  }
-  @else {
-    @return #CCC;
-  }
-}
 
-@import "www/lib/ionic/scss/ionic", "scss/start", "scss/menu", "scss/tables", "scss/general";
+@import "www/lib/ionic/scss/ionic";
+@import "scss/start";
+@import "scss/menu";
+@import "scss/tables";
+@import "scss/general";
