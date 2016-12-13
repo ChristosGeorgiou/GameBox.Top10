@@ -14,7 +14,7 @@
   },
   "devDependencies": {
     "bower": "*",
-    "gulp-inject": "^1.2.0",
+    "gulp-inject": "^4.1.0",
     "gulp-util": "*",
     "shelljs": "*"
   }
